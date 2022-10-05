@@ -1,0 +1,538 @@
+
+*{
+margin:0px;
+padding:0px;
+}
+    html{
+        background:#111;
+    }
+    
+    body{
+        background: silver;
+        height:1200px;
+        width:100%;
+        margin:0px auto;
+    }
+    #header{
+    background:white;
+    height: 200px;
+    width:100%;
+    }
+    
+    #nav{
+    background:#be27f0;
+    height: 50px;
+    width:100%;
+    }
+    #container{
+        background:white;
+        height: 900px;
+        width:100%;   
+    }
+    #footer{
+        background:#be27f0;
+        height: 50px;
+        width:100%;
+        color:white;
+        line-height: 30px;
+        }
+    #lftbx{
+        background:#ed4929;
+        height:100%;
+        float:left;
+        width: 15%;
+    }
+    #lftbx-1{
+        background-color: lightsalmon;
+        height: 100%;
+        width: 10%;
+        float: left;
+    }
+    #lftbx-3{
+        background-color: lightslategrey;
+        height: 100%;
+        width: 60%;
+        float: left;
+    }
+    #lftbx-4{
+        background-color:blue;
+        height: 100%;
+        width: 40%;
+        float: left;
+        }
+    
+    #rtbx-3{
+        background-color:lightskyblue;
+        height: 100%;
+        float: right;
+        width:40% ;
+    }
+    #rtbx-4{
+        background-color: black;
+        height: 100%;
+        float: right;
+        width:60% ;
+    }
+    #rtbx-1{
+        background-color: lime;
+        height: 100%;
+        float: right;
+        width:90% ;
+    }
+
+    #rtbx, #rtbx-2{
+        background:lemonchiffon;
+        height:100%;
+        float:right;
+        width: 85%;
+    }
+    #navul li{
+        list-style-type:none;
+        display: inline;
+        padding-left:15px;
+        padding-right: 15px;
+        line-height: 30px;
+        padding-top: 30px;
+        margin: 10px auto;
+        }
+    #navul li a,#lful li a {
+        text-decoration:none;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 1rem;
+        }
+        #botul li a{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 50px;
+        text-decoration:none;
+        line-height: 20px;
+        color: white;
+        font-size: 20px;
+        font-weight: 100;
+        padding-left:400px; 
+
+        }
+        #navul li a:hover,#lful li a:hover,#botul li a:hover{
+        color:darkblue;
+        }
+        #lful li{
+        list-style-type:none;
+        padding-left: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+
+        #botlink{
+            background-color: #ed4929;
+        }
+       
+        #logotxt{
+            width:25%;
+            height:100%;
+            float:left;
+        }
+        #logo{
+            width:75%;
+            height:100%;
+            float:right;
+        }
+        #logo{
+            background-image: url(./images/stording.jpg);
+            background-position: center;
+            background-size: cover;
+            }
+            
+        #rtbx{
+            height: 900px;
+            float:right;
+            width: 85%;
+        }
+        #rtbx-11{
+            height: 900px;
+            float: left;
+            width: 100%;
+        }
+        #rtbx-11{
+            background-color: burlywood;
+        }
+        #rtbx{
+            background-image: url(./images/main-foto.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #rtbx{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-rows: 1fr 1fr;
+            grid-gap: 150px;
+            
+        }
+        #bottom-left h2, #bottom-left h4{
+            background-color: red;
+            color: white;
+            font-weight: 200px;
+            height: 30px;
+            width: 260px;
+            border-radius: 10px;
+            padding-left: 15px;
+
+        }
+        #bottom-right h2, #bottom-right h4{
+            background-color: red;
+            color: white;
+            font-weight: 200px;
+            height: 30px;
+            width: 260px;
+            border-radius: 10px;
+            padding-left: 20px;
+        }
+                
+        #imglogo{
+           height: 100%;
+            width: 100%;
+            padding-bottom:30px; 
+            }
+
+            #imglogo-1{
+            height: 100%;
+            width: 100%;
+            padding-bottom:30px;
+            border-radius:5px;
+            }
+          #logo h1{
+             color: rgb(249, 6, 6);
+              font-size: 6rem;
+              font-weight: 90rem;
+              letter-spacing: 5px;
+              padding-top: 40px;
+              padding-left: 200px;
+              font-family: 'Modak', cursive;
+                      
+             }
+                   
+              
+        h1{
+            color: darkorange;
+            font-size: 50px;
+            font-weight: 20px;
+            padding-left: 100px;
+            margin-bottom: 20px;
+        }
+        
+        #rtbx-2{
+            background-color: darkgreen;
+        }
+        #G-bottom{
+            height: 600px;
+            width: 600px;
+            margin: 20px auto;
+        }
+        .jobb{
+            height: 100%;
+            width: 100%;
+        
+            border-radius: 50%;
+            padding-top:300px;  
+        }
+        #top-right{
+            background-color: red;
+            color: white;
+            background-color: red;
+            text-align: left;
+            font-size: 30px;
+            font-weight:1rem; 
+            width: 500px;
+            height: 140px;
+            float: right;
+            padding: 10px;
+            margin: 10px;
+            border: 5px solid blue;
+            border-radius: 20px; 
+        }
+/*Grorud-nå*/
+#rtbx-1{
+    background-color: lime;
+    float: right;
+}
+
+#jonasimg{
+    width: 300px;
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 12px;
+}
+#hadia{
+    width: 220px;
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+#kje{
+    width: 250px;
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    
+}
+
+#p-1{
+    font-family: 'Saira Stencil One', cursive;
+    color:white;
+    text-align: right;
+    font-weight: 100;
+    font-size: 18px;
+    }
+    
+#p-2{
+   font-family: 'Saira Stencil One', cursive;
+   color:white;
+   text-align: right;
+   font-weight: 100;
+   font-size: 18px;
+   text-transform: capitalize;
+  }
+  #p-3{
+    font-family: 'Saira Stencil One', cursive;
+    color:white;
+    text-align: right;
+    font-weight: 100;
+    font-size: 18px;
+   }
+
+    p {
+        font-size: 1.6rem;   
+        margin-bottom: 1.2rem; 
+        line-height: 1.5;
+        text-align: justify;
+    }
+    
+    p::first-letter {
+        font-size: 4.8rem;
+        line-height: 1;
+        float: left;
+        margin-right: 1.6
+    }
+
+
+/*Bydel-Grorud*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+#rtbx-3{
+    background-image: url(./images/Grorud-senter.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#rtbx-3 p{
+    color:rgb(255, 255, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 1000;
+    font-style:bold;
+    font-variant: smal-caps;
+    padding-top:50px;
+    padding-left: 30px;
+    align-items: center;
+}
+#overlay{
+    padding-top: 400px;
+    padding-right: 35rem;
+    padding-left:0; 
+    float: left;
+}
+
+#overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    color: white;
+    display: grid;
+
+    justify-content: center;
+    align-content: center;
+}
+#lftbx-3{
+    min-height: 100vh;
+    transition: 1s;
+    margin: 0;
+    background-size: 50px;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-image: url(./images/Arbeiderpartiet_logo.png);
+}
+
+
+/*Framtida med Grorud*/
+.bilder {
+    background-color: black;
+    padding: 16px;
+    color: white;
+    border: 4px solid #333;
+    height: 450px;
+    display: flex;
+}
+
+.bilde {
+    background-color: orange;
+    border: 1px solid white;
+    flex: 1;
+    background-size: cover;   
+    transition: 0.5s; 
+}
+
+.bilde:nth-child(1) { background-image: url(./images/skolematt.jpg); }
+.bilde:nth-child(2) { background-image: url(./images/eldreomsorg2.jpg); }
+.bilde:nth-child(3) { background-image: url(./images/Buss\ og\ T-bane1.jpg); }
+.bilde:nth-child(4) { background-image: url(./images/ansatte1.jpg); }
+.bilde:nth-child(5) { background-image: url(./images/sykehus1.jpg); }
+
+.bilde:hover {
+    flex: 2;
+    transform: scale(1.2);
+    z-index: 1;
+}
+#lftbx-4{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+
+}
+#Framtid h6{
+color: white;
+text-align: left;
+font-size: 1.5rem;
+font-weight: 200;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 3rem;
+margin-top: 3rem;
+margin-left: 4rem;
+
+}
+span{
+    font-variant-caps: small-caps;
+    color:orange;
+    font-size: 2.5rem;
+    font-style: italic;
+
+
+}
+
+ /*Kadidater på Grorud*/
+.container {
+ border: 3px solid orange;
+ display: grid;
+ grid-gap: 20px;
+ grid-template-columns: repeat(4, 1fr);
+ grid-auto-rows: 220px;
+ }
+        
+.container article {
+background-color:red;
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction:column;
+align-items: flex-start; 
+padding: 2.2rem;
+justify-content: flex-end;
+border-radius: 0.5rem;
+padding: 1rem;
+color: white;
+font-size: 16px;
+text-shadow: 0 2px 20px rhba(0, 0, 0, 0.4); 
+}
+        .container article p{
+            padding-top: 1rem;
+            
+        }
+        
+        .container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .img-1 {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        #art-1 {
+            background-image: url(./images/jonas.jpg.jpg);
+            background-position: center;
+            background-size: cover;
+            
+        }
+        a{
+            text-decoration: none;
+            color: blue;
+            font-size: 50px;
+        
+        }
+        #art-2 {
+            background-image: url(./images/kandidater-olso.jpg);
+            background-position: center;
+            background-size: cover;
+            
+        }
+        #art-4 {
+            background-image: url(./images/kje.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #art-5 {
+            background-image: url(./images/hadia\ tajik.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #art-6 {
+            background-image: url(./images/Kamzy\ Gunnaratnam.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #art-7 {
+            background-image: url(./images/marit-johanne-bjerke-k.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #art-8 {
+            background-image: url(./images/anujan-kathirkamalingam1.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #art-9 {
+            background-image: url(./images/Grethe.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #art-10 {
+            background-image: url(./images/Mobashar1.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #art-11 {
+            background-image: url(./images/Scroll\ GIF.gif);
+            background-position: center;
+            background-size: cover;
+        }
+        .container article h2{
+            padding-top: 1rem;
+            margin-bottom: 1rem; 
+        }
+        
+        .col-2 {
+            grid-column: span 2;
+        }
+        
+        .row-2 {
+            grid-row: span 2;
+        }
+        .big{
+            font-size: 3.4rem; 
+        }
